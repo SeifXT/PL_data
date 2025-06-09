@@ -8,7 +8,7 @@ st.set_page_config(page_title="Premier League Dashboard", layout="wide")
 st.title("Premier League Data Analysis")
 
 # 🔹 Load the dataset
-df = pd.read_csv("England_CSV.csv") 
+df = pd.read_csv("England CSV.csv") 
 
 # Clean column names
 df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_')
